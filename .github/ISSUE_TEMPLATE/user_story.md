@@ -1,13 +1,23 @@
-**Title:** [Descriptive title of the user story]
+---
+name: User Story
+about: This template is for creating user stories
+title: ''
+labels: ''
+assignees: ''
 
-**As a** [type of user],
-**I want** [an action or feature],
-**so that** [a benefit or value].
+---
 
-**Acceptance Criteria:**
-- [Criterion 1]
-- [Criterion 2]
-- [Criterion 3]
-
-**Notes:**
-- [Additional information or context]
+**As a** [role]  
+ **I need** [function]  
+ **So that** [benefit]  
+   
+ ### Details and Assumptions
+ * [document what you know]
+   
+ ### Acceptance Criteria  
+   
+ ```gherkin
+ Given [some context]
+ When [certain action is taken]
+ Then [the outcome of action is observed]
+ ```
